@@ -1,16 +1,7 @@
-# The Raaj Nadar Show
+# The Raaj Nadar Show — Logo Update
 
-Static website demo for The Raaj Nadar Show.
+Upload all files in this folder to the root of the existing `raaj-nadar-show` GitHub repository. When prompted, replace the existing `index.html`. Keep `_headers`. The logo and favicon files must be uploaded alongside `index.html` (same root folder). Commit the changes; Cloudflare Pages should automatically redeploy from `main`.
 
-## Deploy
-- Upload `index.html` to the root of a GitHub repository.
-- Connect the repository to Cloudflare Pages.
-- Framework preset: None
-- Build command: leave blank
-- Build output directory: `/` (root)
+Files: `index.html`, `raaj-nadar-show-logo.webp`, `raaj-nadar-show-logo-small.webp`, `favicon-192.png`, `favicon-512.png`, `_headers`.
 
-## Notes
-This is a front-end prototype. Images are embedded in `index.html`, and the YouTube playlist is embedded/linked.
-Sign-in, membership-interest and application forms currently use browser local storage for demonstration only.
-They do not provide secure authentication, process payments, or send applications to a production team.
-A live launch requires a backend, database, secure authentication, admin review tools and payment integration.
+Note: sign-in, membership and application forms remain demo-only and are not secure production services.
